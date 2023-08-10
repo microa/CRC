@@ -4,5 +4,5 @@ However, there are instances where they cannot be used or encounter compatibilit
 Here, I'm providing my version for serial communication, specifically MODBUS with 485 physical links.<br>
 A simple use case as follows:<br>
 <br>
-def main():
+def main(): <br>
   CRC(0x01, 0x05, 0x00, 0x01, 0xFF, 0x00)  # these 6 hex number is your protocal command
