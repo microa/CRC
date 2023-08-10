@@ -5,4 +5,4 @@ Here, I'm providing my version for serial communication, specifically MODBUS wit
 A simple use case as follows:<br>
 <br>
 def main(): <br>
-&nbsp;&nbsp;CRC(0x01, 0x05, 0x00, 0x01, 0xFF, 0x00)  # these 6 hex number is your protocal command
+&nbsp;CRC(0x01, 0x05, 0x00, 0x01, 0xFF, 0x00)  # these 6 hex number is your protocal command
